@@ -1,0 +1,4 @@
+setup.py
+examples/bspline.py
+pycurve/__init__.py
+pycurve/_main.py
