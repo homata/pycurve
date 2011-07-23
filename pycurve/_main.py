@@ -93,7 +93,7 @@ class Bspline(object):
         n = m - k - 1
         """
         m, n = len(t) - 1, len(P) - 1
-        if not k: k = m - n - l
+        if not k: k = m - n - 1
         else: assert m == n + k + 1
         self.k, self.t = k, t
         self.X, self.Y = _unzip(P) # points in X, Y components
