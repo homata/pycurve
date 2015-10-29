@@ -1,0 +1,1 @@
+Lagrange curves, Bezier curves, and B-Splines for python
